@@ -21,12 +21,12 @@ print(l1*3)
 result=[]
 print(result)
 
-#  list comprehension
-friends=['jack', 'jerry', 'fred', 'friday', 'abdul']
-people[]
-for i in friends:
-people=[i.title() for i in friends]
-print(people)
+# #  list comprehension
+# friends=['jack', 'jerry', 'fred', 'friday', 'abdul']
+# # people[]
+# for i in friends:
+# # people=[i.title() for i in friends]
+# print(people)
 
 var=[i*5 for i in range(1,16)]
 print(var)
@@ -37,3 +37,4 @@ lower=[i for i in list if i == i.lower()]
 print(lower)
 title=[i for i in list if i == i.title()]
 print(title)
+print(upper+lower+title)
